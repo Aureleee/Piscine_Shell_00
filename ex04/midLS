@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -1pt|grep -v '^\.'|tr '\n' ','|sed 's/,/, /g'|sed 's/, $/\n/g'
