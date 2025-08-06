@@ -1,3 +1,3 @@
 #!/bin/bash
 ls -1pt --sort=time | grep -v '^\.' | tr '\n' ',' | sed 's/,/, /g' | sed 's/, $/\n/'
-
+#we also can just do: ls -tpm
